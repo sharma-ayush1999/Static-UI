@@ -1,0 +1,7 @@
+#main{
+    background: url('../../images/main_bg.png');
+    width: 100%;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
