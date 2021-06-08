@@ -1,7 +1,123 @@
-#main{
-    background: url('../../images/main_bg.png');
-    width: 100%;
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
+#main {
+  background: url("../../images/main_bg.png");
+  width: 100%;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20vh;
+  position: relative;
+}
+
+.column1 {
+  width: 49%;
+  z-index: 1;
+}
+
+.column1-nested1 {
+  background: linear-gradient(to right, #1d4791, #3f6ebe);
+  color: #fff;
+  display: flex;
+  padding: 4%;
+  border-radius: 7px;
+}
+.column1-nested1__bg {
+  position: absolute;
+
+  top: -26%;
+  left: 6%;
+}
+
+.column1-nested1-column1 {
+  padding-right: 2vw;
+  border-right: 1.8px solid #255887;
+}
+
+.column1-nested1-column h5 {
+  margin-top: 1vh;
+  letter-spacing: 1px;
+}
+
+.column1-nested1-column1 h4 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 2vh;
+}
+
+.column1-nested1-column1 p {
+  margin-top: 1vh;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.column1-nested1-column2 {
+  padding-left: 2vw;
+}
+
+.column1-nested1-column2 ul {
+  margin: 15px 1vw;
+}
+
+.column1-nested1-column2 ul li {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.column1-nested1-column2 img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+.column1-nested1-column1-img {
+  position: relative;
+}
+
+.column1-nested1-column1-img__icon {
+  position: absolute;
+  color: #5d5d5d;
+  top: 49%;
+  left: 42%;
+}
+
+.column2 {
+  background: url("../../images/bg1.png");
+  width: 27%;
+  margin-top: -4vh;
+}
+
+.column2-container{
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.column2-container h5{
+    margin-bottom: 2vh;
+}
+
+.column2-nested {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.column2-nested-column {
+  width: 33.33%;
+  text-align: center;
+}
+.column2-nested-column p:nth-child(1) {
+  background: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.column2-nested-column p:nth-child(2) {
+  font-size: 13px;
 }
